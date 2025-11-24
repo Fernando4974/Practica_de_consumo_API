@@ -7,6 +7,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import com.sena.practica_de_consumo_api.presentation.pokemon.PokemonScreen
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -19,7 +20,7 @@ fun App(){
             )
         }
     ) { innerPadding ->
-        UserScreen(
+        PokemonScreen(
             modifier = Modifier.padding(paddingValues = innerPadding)
         )
     }
