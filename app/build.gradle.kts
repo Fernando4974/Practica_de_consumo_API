@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.lifecycle.viewmodel.compose)
     implementation(libs.retrofit.core)
     implementation(libs.retrofit.moshi)
+    implementation(libs.androidx.room.ktx)
     ksp(libs.moshi.codegen)
 
     implementation(libs.navigation.compose)
